@@ -85,6 +85,21 @@
         the
         sobriquet of "man's best friend."
     </p>
+    <p id="jesungid">Jesung</p>
+    <button id="ColourChangeButton" onclick="changethecolour()">Color change!</button>
+    <script>
+        function changethecolour() {
+            console.log("Change the colour Button");
+            var element = document.getElementById("jesungid");
+
+            if (element.style.color == "navy") {
+                element.style.color = "white";
+            }
+            else {
+                element.style.color = "navy"
+            }
+        }
+    </script>
 </body>
 
 </html>
